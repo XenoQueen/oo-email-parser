@@ -5,4 +5,5 @@ class EmailParser
     @csv_emails = csv_emails
   end
   
-  def 
+  def parse
+    csv_emails
